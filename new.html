@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Image Gallery</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script defer src="datanew.js"></script>
+    <style>
+        .hide {
+            display: none;
+        }
+        .active {
+            background-color: #ddd; /* Add your preferred active button style */
+        }
+    </style>
+</head>
+<body>
+    <h2 class="gallery-heading">Device Destination </h2>
+
+    <div class="container">
+        <div class="filter_button">
+            <button class="active" data-name="all">Show all</button>
+            <button data-name="phones">Mobile phones</button>
+            <button data-name="Laptop">Laptop</button>
+            <button data-name="tablet">Tablets</button>
+        </div>
+        <div class="gallery-container">
+       
+            <div class="filterable_cards">
+            <div class="card" data-name="phones">
+                <img src="download.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Mobile</h6>
+                    <p class="card_text">Experience the latest technology at your fingertips. Enjoy stunning visuals with our high-resolution displays. Stay entertained with our immersive audio technology</p>
+                    </div>
+            </div>
+            <div class="card" data-name="phones">
+                <img src="download (2).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Mobile</h6>
+                    <p class="card_text">Experience the latest technology at your fingertips. Enjoy stunning visuals with our high-resolution displays. Stay entertained with our immersive audio technology</p>
+                </div>
+            </div>
+            <div class="card" data-name="phones">
+                <img src="download.jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Mobile</h6>
+                    <p class="card_text">Experience the latest technology at your fingertips. Enjoy stunning visuals with our high-resolution displays. Stay entertained with our immersive audio technology</p>
+                </div>
+            </div>
+            <div class="card" data-name="phones">
+                <img src="download (6).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Mobile</h6>
+                    <p class="card_text">Capture life's precious moments with our high-quality cameras. Stay entertained with our immersive audio technology. Enjoy seamless gaming with our powerful processors.</p>
+                </div>
+            </div>
+            <div class="card" data-name="phones">
+                <img src="images (9).jpeg" alt=""/>
+                <div class="card_body">
+                    <h6 class="card_title">Mobile</h6>
+                    <p class="card_text">Enjoy seamless performance with our powerful processors. Stay connected with our advanced network capabilities. Capture stunning selfies with our advanced camera system.</p>
+                </div>
+            </div>
+            <div class="card" data-name="Laptop">
+                <img src="download (3).jpeg" alt="Laptop"/>
+                <div class="card_body">
+                    <h6 class="card_title">Laptop</h6>
+                    <p class="card_text">Latest model of Apple laptop with high processing and gaming card. Unleash your creativity with our powerful laptops. Enjoy stunning visuals with our high-resolution displays. Stay productive on-the-go with our lightweight designs</p>
+                </div>
+            </div> 
+            <div class="card" data-name="Laptop">
+                <img src="download (4).jpeg" alt="Laptop"/>
+                <div class="card_body">
+                    <h6 class="card_title">Laptop</h6>
+                    <p class="card_text">Latest model of Apple laptop with high processing and gaming card. Stay productive on-the-go with our lightweight designs. Enjoy seamless performance with our powerful processors. Experience stunning visuals with our high-resolution displays.</p>
+                </div>
+            </div> 
+            <div class="card" data-name="Laptop">
+                <img src="images (3).jpeg" alt="Laptop"/>
+                <div class="card_body">
+                    <h6 class="card_title">Laptop</h6>
+                    <p class="card_text">Experience stunning visuals with our high-resolution displays. Stay connected with our advanced network capabilities. Enjoy seamless gaming with our powerful processors.</p>
+                </div>
+            </div> 
+            <div class="card" data-name="tablet">
+                <img src="download (5).jpeg" alt="Tablet"/>
+                <div class="card_body">
+                    <h6 class="card_title">Tablet</h6>
+                    <p class="card_text">Experience stunning visuals with our high-resolution displays. Stay connected with our advanced network capabilities. Enjoy seamless gaming with our powerful processors.</p>
+                </div>
+            </div> 
+            <div class="card" data-name="tablet">
+                <img src="images (4).jpeg" alt="Tablet"/>
+                <div class="card_body">
+                    <h6 class="card_title">Tablet</h6>
+                    <p class="card_text">Experience stunning visuals with our high-resolution displays. Stay connected with our advanced network capabilities. Enjoy seamless gaming with our powerful processors.</p>
+                </div>
+            </div> 
+            <div class="card" data-name="tablet">
+                <img src="images (5).jpeg" alt="Tablet"/>
+                <div class="card_body">
+                    <h6 class="card_title">Tablet</h6>
+                    <p class="card_text">Experience stunning visuals with our high-resolution displays. Stay connected with our advanced network capabilities. Enjoy seamless gaming with our powerful processors.</p>
+                </div>
+            </div> 
+            <div class="card" data-name="tablet">
+                <img src="images (6).jpeg" alt="Tablet"/>
+                <div class="card_body">
+                    <h6 class="card_title">Tablet</h6>
+                    <p class="card_text">Experience stunning visuals with our high-resolution displays. Stay connected with our advanced network capabilities. Enjoy seamless gaming with our powerful processors.</p>
+                </div>
+            </div> 
+            <div class="card" data-name="tablet">
+                <img src="images (6).jpeg" alt="Tablet"/>
+                <div class="card_body">
+                    <h6 class="card_title">Tablet</h6>
+                    <p class="card_text">Experience stunning visuals with our high-resolution displays. Stay connected with our advanced network capabilities. Enjoy seamless gaming with our powerful processors.</p>
+                </div>
+            </div> 
+            <div class="card" data-name="tablet">
+                <img src="images (7).jpeg" alt="Tablet"/>
+                <div class="card_body">
+                    <h6 class="card_title">Tablet</h6>
+                    <p class="card_text">Experience stunning visuals with our high-resolution displays. Stay connected with our advanced network capabilities. Enjoy seamless gaming with our powerful processors.</p>
+                </div>
+            </div> 
+            <div class="card" data-name="tablet">
+                <img src="images (8).jpeg" alt="Tablet"/>
+                <div class="card_body">
+                    <h6 class="card_title">Tablet</h6>
+                    <p class="card_text">Experience stunning visuals with our high-resolution displays. Stay connected with our advanced network capabilities. Enjoy seamless gaming with our powerful processors.</p>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const filterButtons = document.querySelectorAll(".filter_button button");
+            const filterableCards = document.querySelectorAll(".filterable_cards .card");
+
+            const filterCards = e => {
+                document.querySelector(".active").classList.remove("active");
+                e.target.classList.add("active");
+
+                filterableCards.forEach(card => {
+                    card.classList.add("hide");
+                    if (card.dataset.name === e.target.dataset.name || e.target.dataset.name === "all") {
+                        card.classList.remove("hide");
+                    }
+                });
+            };
+
+            filterButtons.forEach(button => button.addEventListener("click", filterCards));
+        });
+    </script>
+</body>
+</html>
